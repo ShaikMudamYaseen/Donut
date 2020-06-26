@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Update">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/shape2"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        >
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:hint="First name"
+            android:inputType="text"
+            android:background="@drawable/shape1"
+            android:layout_marginRight="35dp"
+            android:padding="10dp"
+            android:id="@+id/update_first"
+            android:maxLines="1"
+
+            />
+        <EditText
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:hint="Last name"
+            android:inputType="text"
+            android:background="@drawable/shape1"
+            android:padding="10dp"
+            android:id="@+id/update_last"
+            android:maxLines="1"/>
+
+
+
+    </LinearLayout>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Roll Number"
+        android:background="@drawable/shape1"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:drawableRight="@drawable/ic_baseline_person_25"
+        android:id="@+id/update_roll"
+        android:maxLines="1"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@drawable/shape1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:drawableRight="@drawable/ic_baseline_phone_24"
+        android:id="@+id/update_phone"
+        android:maxLines="1"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:textSize="18sp"
+        android:inputType="number"
+        android:padding="10dp"
+        android:background="@drawable/shape1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:drawableRight="@drawable/ic_baseline_email_24"
+        android:id="@+id/update_email"
+        android:maxLines="1"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="@color/cardview_light_background"
+        android:background="@drawable/shape"
+        android:backgroundTint="@color/orange"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:onClick="update"
+        />
+
+
+
+
+</LinearLayout>
