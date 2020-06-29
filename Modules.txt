@@ -1,0 +1,11 @@
+                                       Modules
+
+
+1. Authentication
+2. Beautiful UI
+3. Firebase Database 
+4. Navigation Drawer
+5. Services (Work Manager)
+6. Fragments
+7. Alert Dialogues
+8. Menus
