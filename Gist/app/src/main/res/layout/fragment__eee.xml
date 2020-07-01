@@ -15,9 +15,10 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="match_parent"
+            android:layout_width="700dp"
             android:layout_height="180dp"
             android:src="@drawable/eeelong"
+            android:layout_marginLeft="-170dp"
             />
 
         <TextView

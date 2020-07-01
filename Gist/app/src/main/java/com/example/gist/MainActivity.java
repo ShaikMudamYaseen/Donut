@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
         email1 = findViewById(R.id.email);
         password1 = findViewById(R.id.pwd);
         Auth = FirebaseAuth.getInstance();
+        if(Auth.getCurrentUser()!=null){
+            startActivity(new Intent(MainActivity.this,Signout.class));
+        }
 
 
     }
